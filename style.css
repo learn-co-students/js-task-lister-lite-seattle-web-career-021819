@@ -35,3 +35,16 @@ button {
   border-radius: 5px;
   box-shadow: 2px 5px 5px #333;
 }
+
+
+.low {
+  color: chocolate;
+}
+
+.med {
+  color: LemonChiffon;
+}
+
+.high {
+  color: MediumOrchid;
+}
