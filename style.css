@@ -7,7 +7,7 @@ html {
 body {
   min-height: 100%;
   min-width: 100%;
-  background: linear-gradient(pink, violet);
+  background: linear-gradient(rgb(82, 66, 1), rgb(196, 185, 142));
 }
 
 button {
@@ -21,7 +21,7 @@ button {
   align-items: center;
   flex-direction: column;
   border: 1px solid #333;
-  background: rgba(255, 255, 255, 0.3);
+  background: linear-gradient(rgb(196, 185, 142), rgb(82, 66, 1));
   padding: 15px 20px 18px 18px;
   border-radius: 5px;
   box-shadow: 2px 5px 5px #333;
@@ -34,4 +34,38 @@ button {
   padding: 15px 20px 18px 18px;
   border-radius: 5px;
   box-shadow: 2px 5px 5px #333;
+}
+
+#list2 {
+  margin: 10px;
+  border: 1px solid #333;
+  background: rgba(255, 255, 255, 0.75);
+  padding: 15px 20px 18px 18px;
+  border-radius: 5px;
+  box-shadow: 4px 10px 10px #333;
+}
+
+.low {
+  color: rgb(0, 171, 255);
+}
+.med {
+  color: rgb(255, 137, 0);
+}
+.high {
+  color: rgb(255, 0, 0);
+}
+
+.poo1 {
+  color: rgb(205, 133, 63);
+}
+.poo2 {
+  color: rgb(160, 82, 45);
+}
+.poo3 {
+  color: rgb(139, 69, 19);
+}
+
+#deleteButton {
+  height: 50%;
+  width: 50%;
 }

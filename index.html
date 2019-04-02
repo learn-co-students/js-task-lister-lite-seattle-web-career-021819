@@ -12,12 +12,33 @@
     <form id="create-task-form" action="#" method="post">
       <label for="new-task-description">Task description:</label>
       <input type="text" id="new-task-description" name="new-task-description" placeholder="description">
-      <input type="submit" value="Create New Task">
+      <select id="priority">
+        <option value="low">low</option>
+        <option value="med">med</option>
+        <option value="high">high</option>
+      </select>
+      <input type="submit" value="Add to Todo list">
+    </form>
+    <form id="create-task2-form" action="#" method="post">
+      <label for="new-task2-description">Task description:</label>
+      <input type="text" id="new-task2-description" name="new-task2-description" placeholder="add items">
+      <select id="priority2">
+        <option value="poo1">low</option>
+        <option value="poo2">med</option>
+        <option value="poo3">high</option>
+      </select>
+      <input type="submit" value="Add to Another list">
     </form>
 
     <div id="list">
       <h2>My Todos</h2>
       <ul id="tasks">
+      </ul>
+    </div>
+
+    <div id="list2">
+      <h2>Another List</h2>
+      <ul id="tasks2">
       </ul>
     </div>
 
